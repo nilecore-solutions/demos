@@ -188,11 +188,13 @@ body {
 
 .demo-card.is-coming {
   opacity: 0.75;
+  cursor: pointer;
 }
 
 .demo-card.is-coming:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  opacity: 1;
 }
 
 .card-accent-bar {
@@ -378,7 +380,13 @@ body {
 .card-cta.cta-soon {
   background: var(--surface-raised);
   color: var(--text-subtle);
-  cursor: default;
+  cursor: pointer;
+}
+
+.card-cta.cta-soon:hover {
+  background: var(--border);
+  color: var(--text-muted);
+  text-decoration: none;
 }
 
 /* ── Footer ── */

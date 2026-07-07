@@ -75,15 +75,19 @@ const ICONS = {
       href +
       '" class="card-cta ' +
       (demo.live ? "cta-live" : "cta-soon") +
-      '"' +
-      (demo.live ? "" : ' aria-disabled="true" tabindex="-1"') +
-      ">" +
+      '">' +
       (demo.live
         ? 'View Demo <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>'
         : "Coming Soon") +
       "</a>" +
       "</div>" +
       "</div>";
+
+    card.addEventListener("click", function (e) {
+      if (!e.target.closest("a")) {
+        globalThis.location.href = href;
+      }
+    });
 
     grid.appendChild(card);
   });
