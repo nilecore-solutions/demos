@@ -1,10 +1,1581 @@
-<!DOCTYPE html>
-<html lang="en" data-redirect="../coming-soon/index.html?demo=business-website">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coming Soon — NileCore Solutions</title>
-  <script src="../styles/redirect.js"></script>
-</head>
-<body></body>
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinnacle Corporate Services — Business Bay, Dubai</title>
+    <meta
+      name="description"
+      content="UAE's trusted business consultancy. Company formation, PRO services, strategy, and financial advisory in Dubai."
+    />
+    <link rel="icon" href="../brand/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../brand/apple-touch-icon.png"
+    />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ── STICKY WRAPPER (demo banner + nav move together) ── -->
+    <div class="biz-sticky-header">
+      <div class="demo-banner">
+        NileCore Solutions demo &mdash; Business Website package &middot;
+        <a href="../index.html">&#8592; Back to gallery</a>
+      </div>
+
+      <!-- ── NAVIGATION ── -->
+      <header class="biz-nav" id="js-nav" data-scrolled="false">
+        <div class="biz-nav-inner">
+          <a
+            href="index.html"
+            class="biz-logo"
+            aria-label="Pinnacle Corporate Services — home"
+          >
+            <div class="biz-logo-mark" aria-hidden="true">P</div>
+            <div class="biz-logo-text">
+              <span class="biz-logo-name">Pinnacle</span>
+              <span class="biz-logo-sub">Corporate Services</span>
+            </div>
+          </a>
+
+          <nav class="biz-nav-links" aria-label="Main navigation">
+            <a href="#" class="biz-nav-link" aria-current="page"
+              >Home</a
+            >
+            <a href="services.html" class="biz-nav-link">Services</a>
+            <a href="about.html" class="biz-nav-link">About</a>
+            <a href="case-studies.html" class="biz-nav-link">Case Studies</a>
+            <a href="contact.html" class="biz-nav-link">Contact</a>
+          </nav>
+
+          <div class="biz-nav-end">
+            <button
+              class="theme-toggle"
+              data-theme-toggle
+              aria-label="Toggle light/dark mode"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+            </button>
+            <a href="contact.html" class="biz-btn biz-btn-primary biz-btn-sm"
+              >Get in Touch</a
+            >
+            <button
+              class="biz-hamburger"
+              id="js-hamburger"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="js-mobile-menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile menu (inside header so it's part of the sticky unit) -->
+        <nav
+          class="biz-mobile-menu"
+          id="js-mobile-menu"
+          aria-label="Mobile navigation"
+          aria-hidden="true"
+        >
+          <a href="#" class="biz-mobile-link" aria-current="page"
+            >Home</a
+          >
+          <a href="services.html" class="biz-mobile-link">Services</a>
+          <a href="about.html" class="biz-mobile-link">About</a>
+          <a href="case-studies.html" class="biz-mobile-link">Case Studies</a>
+          <a href="contact.html" class="biz-mobile-link">Contact</a>
+          <a href="contact.html" class="biz-btn biz-btn-primary"
+            >Get in Touch</a
+          >
+        </nav>
+      </header>
+    </div>
+
+    <main>
+      <!-- ── HERO ──────────────────────────────────────────── -->
+      <section class="biz-hero" id="home">
+        <div class="biz-hero-inner">
+          <div class="biz-hero-content">
+            <span class="biz-eyebrow"
+              >Business Bay, Dubai &middot; Est. 2011</span
+            >
+            <h1 class="biz-hero-title">
+              Your Gateway to<br />
+              <em>UAE Business Success</em>
+            </h1>
+            <p class="biz-hero-sub">
+              From company formation to long-term growth strategy, Pinnacle
+              gives ambitious businesses the structure, compliance, and insight
+              to scale confidently across the Emirates.
+            </p>
+            <div class="biz-hero-actions">
+              <a href="#contact" class="biz-btn biz-btn-primary biz-btn-lg">
+                Book Free Consultation
+              </a>
+              <a
+                href="#services"
+                class="biz-btn biz-btn-ghost-light biz-btn-lg"
+              >
+                Explore Services
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Floating metric cards -->
+          <div class="biz-hero-visual" aria-hidden="true">
+            <div class="biz-metric-card biz-mc-1">
+              <div class="biz-mc-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-mc-val">9 days</div>
+                <div class="biz-mc-lbl">Average company setup</div>
+              </div>
+            </div>
+            <div class="biz-metric-card biz-mc-2">
+              <div class="biz-mc-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-mc-val">200+ clients</div>
+                <div class="biz-mc-lbl">Across 40+ industries</div>
+              </div>
+            </div>
+            <div class="biz-metric-card biz-mc-3">
+              <div class="biz-mc-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-mc-val">4.9 / 5.0</div>
+                <div class="biz-mc-lbl">Client satisfaction</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats bar -->
+        <div class="biz-hero-stats-bar">
+          <div class="biz-stats-inner">
+            <div class="biz-stat">
+              <span class="biz-stat-num">200+</span>
+              <span class="biz-stat-lbl">Companies Served</span>
+            </div>
+            <div class="biz-stat-sep" aria-hidden="true"></div>
+            <div class="biz-stat">
+              <span class="biz-stat-num">12+</span>
+              <span class="biz-stat-lbl">Years in UAE</span>
+            </div>
+            <div class="biz-stat-sep" aria-hidden="true"></div>
+            <div class="biz-stat">
+              <span class="biz-stat-num">9 Days</span>
+              <span class="biz-stat-lbl">Avg. Setup Time</span>
+            </div>
+            <div class="biz-stat-sep" aria-hidden="true"></div>
+            <div class="biz-stat">
+              <span class="biz-stat-num">98%</span>
+              <span class="biz-stat-lbl">Client Retention</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── SERVICES ──────────────────────────────────────── -->
+      <section class="biz-services" id="services">
+        <div class="biz-inner">
+          <header class="biz-section-hd biz-animate">
+            <span class="biz-eyebrow">What We Do</span>
+            <h2 class="biz-section-title">End-to-End Business Support</h2>
+            <p class="biz-section-sub">
+              Whether you're a founder registering your first LLC or a
+              multinational entering the UAE market &mdash; Pinnacle brings the
+              expertise to move faster and smarter.
+            </p>
+          </header>
+
+          <div class="biz-services-grid">
+            <article class="biz-service-card">
+              <div class="biz-service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+              <h3 class="biz-service-name">Company Formation</h3>
+              <p class="biz-service-desc">
+                Mainland, Free Zone, and Offshore company setup. We handle
+                everything from trade name reservation to your first bank
+                account opening.
+              </p>
+              <ul class="biz-service-list">
+                <li>Mainland LLC &amp; Branch setup</li>
+                <li>50+ Free Zone options</li>
+                <li>Offshore (RAK ICC, JAFZA)</li>
+              </ul>
+            </article>
+
+            <article class="biz-service-card">
+              <div class="biz-service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                </svg>
+              </div>
+              <h3 class="biz-service-name">PRO &amp; Visa Services</h3>
+              <p class="biz-service-desc">
+                Residency visas, work permits, Emirates ID, document
+                attestation, and all government liaison &mdash; handled with
+                precision and speed.
+              </p>
+              <ul class="biz-service-list">
+                <li>Investor &amp; employee visas</li>
+                <li>Document attestation</li>
+                <li>Renewal &amp; cancellation</li>
+              </ul>
+            </article>
+
+            <article class="biz-service-card">
+              <div class="biz-service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="18" y1="20" x2="18" y2="10" />
+                  <line x1="12" y1="20" x2="12" y2="4" />
+                  <line x1="6" y1="20" x2="6" y2="14" />
+                </svg>
+              </div>
+              <h3 class="biz-service-name">Business Strategy</h3>
+              <p class="biz-service-desc">
+                Data-driven market research, competitive analysis, and growth
+                planning. We turn your vision into an investor-ready business
+                plan.
+              </p>
+              <ul class="biz-service-list">
+                <li>Market &amp; competitor research</li>
+                <li>Business plan &amp; financial model</li>
+                <li>Investor deck preparation</li>
+              </ul>
+            </article>
+
+            <article class="biz-service-card">
+              <div class="biz-service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="12" y1="1" x2="12" y2="23" />
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg>
+              </div>
+              <h3 class="biz-service-name">Financial &amp; Tax Advisory</h3>
+              <p class="biz-service-desc">
+                VAT registration and filing, bookkeeping, annual audits, and
+                CFO-on-demand &mdash; keeping your finances compliant and your
+                margins healthy.
+              </p>
+              <ul class="biz-service-list">
+                <li>UAE VAT registration &amp; filing</li>
+                <li>Monthly bookkeeping</li>
+                <li>CFO-on-demand service</li>
+              </ul>
+            </article>
+
+            <article class="biz-service-card">
+              <div class="biz-service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                  />
+                </svg>
+              </div>
+              <h3 class="biz-service-name">Market Entry Consulting</h3>
+              <p class="biz-service-desc">
+                International companies entering the UAE get a complete roadmap
+                &mdash; legal structure, market sizing, local partnerships, and
+                a soft-landing programme.
+              </p>
+              <ul class="biz-service-list">
+                <li>UAE market sizing &amp; analysis</li>
+                <li>Legal structure advice</li>
+                <li>Partner &amp; distributor search</li>
+              </ul>
+            </article>
+
+            <article class="biz-service-card">
+              <div class="biz-service-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h3 class="biz-service-name">HR &amp; Talent Solutions</h3>
+              <p class="biz-service-desc">
+                End-to-end recruitment, employment contracts, payroll
+                management, and HR compliance &mdash; so you can focus on the
+                business, not the paperwork.
+              </p>
+              <ul class="biz-service-list">
+                <li>Executive &amp; staff recruitment</li>
+                <li>Payroll &amp; WPS compliance</li>
+                <li>Employment contracts &amp; EOSB</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="biz-section-cta">
+            <a href="services.html" class="biz-btn biz-btn-outline">
+              Explore All 6 Services in Detail
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── WHY US ──────────────────────────────────────────── -->
+      <section class="biz-why" id="why-us">
+        <div class="biz-inner">
+          <header class="biz-section-hd biz-animate">
+            <span class="biz-eyebrow">Why Pinnacle</span>
+            <h2 class="biz-section-title">Why Businesses Choose Us</h2>
+            <p class="biz-section-sub">
+              Over 200 companies have trusted Pinnacle with their most critical
+              business milestones. Here&rsquo;s why they stay.
+            </p>
+          </header>
+
+          <div class="biz-why-grid">
+            <div class="biz-why-card biz-animate">
+              <div class="biz-why-icon">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h3 class="biz-why-title">12+ Years of UAE Expertise</h3>
+              <p class="biz-why-desc">
+                Deep regulatory knowledge built over a decade navigating UAE
+                business law, free zone rules, and federal ministries.
+              </p>
+            </div>
+
+            <div
+              class="biz-why-card biz-animate"
+              style="transition-delay: 0.1s"
+            >
+              <div class="biz-why-icon">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                  <polyline points="2 17 12 22 22 17" />
+                  <polyline points="2 12 12 17 22 12" />
+                </svg>
+              </div>
+              <h3 class="biz-why-title">End-to-End Service</h3>
+              <p class="biz-why-desc">
+                From incorporation to ongoing compliance, we&rsquo;re the only
+                partner you need &mdash; no handoffs, no gaps, no surprises.
+              </p>
+            </div>
+
+            <div
+              class="biz-why-card biz-animate"
+              style="transition-delay: 0.2s"
+            >
+              <div class="biz-why-icon">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                  />
+                  <path
+                    d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                  />
+                </svg>
+              </div>
+              <h3 class="biz-why-title">Government Relationships</h3>
+              <p class="biz-why-desc">
+                Established connections across DED, DIFC, free zones, and
+                federal authorities mean faster approvals and fewer obstacles.
+              </p>
+            </div>
+
+            <div
+              class="biz-why-card biz-animate"
+              style="transition-delay: 0.3s"
+            >
+              <div class="biz-why-icon">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="8" r="6" />
+                  <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+                </svg>
+              </div>
+              <h3 class="biz-why-title">98% Client Retention</h3>
+              <p class="biz-why-desc">
+                Businesses stay with us. Our retention rate is the most credible
+                proof of the consistent results we deliver year after year.
+              </p>
+            </div>
+          </div>
+
+          <div class="biz-section-cta">
+            <a href="about.html" class="biz-btn biz-btn-ghost-light">
+              Meet Our Team &amp; Full Story
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── CASE STUDIES PREVIEW ────────────────────────────── -->
+      <section class="biz-cs-preview" id="case-studies">
+        <div class="biz-inner">
+          <header class="biz-section-hd biz-animate">
+            <span class="biz-eyebrow">Proven Results</span>
+            <h2 class="biz-section-title">What We've Helped Clients Achieve</h2>
+            <p class="biz-section-sub">
+              Real companies, real challenges, measurable outcomes — a glimpse at what Pinnacle delivers.
+            </p>
+          </header>
+
+          <div class="biz-cs-preview-grid">
+            <article class="biz-cs-preview-card biz-animate">
+              <div class="biz-cs-preview-tag">Company Formation</div>
+              <h3 class="biz-cs-preview-client">Al Rashidi Holdings</h3>
+              <p class="biz-cs-preview-result">
+                A UAE family office needed a DIFC holding structure to consolidate regional assets. Pinnacle completed the full registration — including MoA, share structure, and regulated activity approvals — in 11 days, three times faster than their previous consultant.
+              </p>
+              <div class="biz-cs-preview-metric">
+                <span class="biz-cs-pm-num">11</span>
+                <span class="biz-cs-pm-lbl">days to full DIFC registration</span>
+              </div>
+            </article>
+
+            <article class="biz-cs-preview-card biz-animate">
+              <div class="biz-cs-preview-tag">Market Entry</div>
+              <h3 class="biz-cs-preview-client">NovaTech ME FZCO</h3>
+              <p class="biz-cs-preview-result">
+                A European SaaS company entered the UAE market via IFZA free zone. Pinnacle handled the entity, visa applications for four founders, and a go-to-market roadmap — enabling first UAE revenue by week three of operations.
+              </p>
+              <div class="biz-cs-preview-metric">
+                <span class="biz-cs-pm-num">7</span>
+                <span class="biz-cs-pm-lbl">days from engagement to trade licence</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="biz-section-cta">
+            <a href="case-studies.html" class="biz-btn biz-btn-outline">
+              View All Case Studies
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── TESTIMONIALS ─────────────────────────────────── -->
+      <section class="biz-testi" id="testimonials">
+        <div class="biz-inner">
+          <header class="biz-section-hd biz-animate">
+            <span class="biz-eyebrow">Client Stories</span>
+            <h2 class="biz-section-title">
+              Trusted by UAE&rsquo;s Leading Businesses
+            </h2>
+          </header>
+
+          <section class="biz-testi-slider" aria-label="Client testimonials">
+            <div class="biz-testi-track-wrap">
+              <div class="biz-testi-track" id="js-testi-track">
+                <article class="biz-testi-card">
+                  <div class="biz-stars" aria-label="5 out of 5 stars">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                  <blockquote class="biz-testi-quote">
+                    Pinnacle handled our DIFC setup start to finish. From trade
+                    name reservation to bank account opening in 11 days &mdash;
+                    their team made what felt impossible look entirely routine.
+                  </blockquote>
+                  <footer class="biz-testi-author">
+                    <div class="biz-testi-avatar" aria-hidden="true">KR</div>
+                    <div>
+                      <div class="biz-testi-name">Khalid Al Rashidi</div>
+                      <div class="biz-testi-role">CEO, Al Rashidi Holdings</div>
+                    </div>
+                  </footer>
+                </article>
+
+                <article class="biz-testi-card">
+                  <div class="biz-stars" aria-label="5 out of 5 stars">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                  <blockquote class="biz-testi-quote">
+                    The UAE market entry research they delivered saved us six
+                    months of trial and error. Their regulatory knowledge is
+                    exceptional and the team is genuinely invested in your
+                    success.
+                  </blockquote>
+                  <footer class="biz-testi-author">
+                    <div class="biz-testi-avatar" aria-hidden="true">SJ</div>
+                    <div>
+                      <div class="biz-testi-name">Sarah Johnson</div>
+                      <div class="biz-testi-role">COO, NovaTech ME FZCO</div>
+                    </div>
+                  </footer>
+                </article>
+
+                <article class="biz-testi-card">
+                  <div class="biz-stars" aria-label="5 out of 5 stars">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                  <blockquote class="biz-testi-quote">
+                    We switched our accounting to Pinnacle three years ago. Our
+                    VAT filings are always submitted on time, and the team
+                    proactively flags issues before they ever become problems.
+                  </blockquote>
+                  <footer class="biz-testi-author">
+                    <div class="biz-testi-avatar" aria-hidden="true">MM</div>
+                    <div>
+                      <div class="biz-testi-name">Mariam Al Mazrouei</div>
+                      <div class="biz-testi-role">CFO, Al Mazrouei Group</div>
+                    </div>
+                  </footer>
+                </article>
+
+                <article class="biz-testi-card">
+                  <div class="biz-stars" aria-label="5 out of 5 stars">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                  <blockquote class="biz-testi-quote">
+                    Getting work permits sorted for 23 employees felt daunting.
+                    Pinnacle&rsquo;s PRO team handled every document without a
+                    single follow-up needed from our side. Genuinely outstanding
+                    service.
+                  </blockquote>
+                  <footer class="biz-testi-author">
+                    <div class="biz-testi-avatar" aria-hidden="true">OH</div>
+                    <div>
+                      <div class="biz-testi-name">Omar Hassan</div>
+                      <div class="biz-testi-role">
+                        Managing Director, Gulf Tech Solutions
+                      </div>
+                    </div>
+                  </footer>
+                </article>
+
+                <article class="biz-testi-card">
+                  <div class="biz-stars" aria-label="5 out of 5 stars">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                  <blockquote class="biz-testi-quote">
+                    As a solo founder, I needed someone who could guide me
+                    through Free Zone registration without the legal jargon.
+                    Pinnacle explained every step clearly and had my licence
+                    ready in 8 days.
+                  </blockquote>
+                  <footer class="biz-testi-author">
+                    <div class="biz-testi-avatar" aria-hidden="true">PS</div>
+                    <div>
+                      <div class="biz-testi-name">Priya Sharma</div>
+                      <div class="biz-testi-role">
+                        Founder, Bloom Interiors FZE
+                      </div>
+                    </div>
+                  </footer>
+                </article>
+
+                <article class="biz-testi-card">
+                  <div class="biz-stars" aria-label="5 out of 5 stars">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                  <blockquote class="biz-testi-quote">
+                    Pinnacle restructured our intercompany accounting ahead of a
+                    Group audit. Their knowledge of UAE corporate tax
+                    regulations saved us significant time and removed
+                    considerable uncertainty.
+                  </blockquote>
+                  <footer class="biz-testi-author">
+                    <div class="biz-testi-avatar" aria-hidden="true">DC</div>
+                    <div>
+                      <div class="biz-testi-name">David Chen</div>
+                      <div class="biz-testi-role">
+                        CFO, Pacific Bridge Capital
+                      </div>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+            </div>
+
+            <div class="biz-testi-nav">
+              <button
+                class="biz-testi-arrow"
+                id="js-testi-prev"
+                aria-label="Previous testimonial"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <polyline points="15 18 9 12 15 6" />
+                </svg>
+              </button>
+              <div
+                class="biz-testi-dots"
+                id="js-testi-dots"
+                role="tablist"
+                aria-label="Testimonials pagination"
+              ></div>
+              <button
+                class="biz-testi-arrow"
+                id="js-testi-next"
+                aria-label="Next testimonial"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <polyline points="9 18 15 12 9 6" />
+                </svg>
+              </button>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- ── CONTACT CTA ──────────────────────────────────── -->
+      <section class="biz-cta-strip" id="contact">
+        <div class="biz-inner">
+          <div class="biz-cta-strip-inner">
+            <div>
+              <span class="biz-eyebrow">Get in Touch</span>
+              <h2 class="biz-section-title">
+                Ready to Start Your UAE Business Journey?
+              </h2>
+              <p class="biz-section-sub">
+                Book a free 30-minute consultation. No obligations, no sales
+                pressure &mdash; just expert guidance tailored to your
+                situation.
+              </p>
+            </div>
+            <div class="biz-cta-strip-actions">
+              <a href="contact.html" class="biz-btn biz-btn-primary biz-btn-lg"
+                >Book Free Consultation</a
+              >
+              <a
+                href="https://wa.me/"
+                class="biz-btn biz-btn-whatsapp biz-btn-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+                  />
+                </svg>
+                Message on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REMOVED BLOCK START -->
+      <div style="display: none">
+        <div class="biz-contact-info biz-animate">
+          <span class="biz-eyebrow">Let&rsquo;s Talk</span>
+          <h2 class="biz-section-title">Start Your UAE Business Journey</h2>
+          <p class="biz-section-sub">
+            Book a free 30-minute consultation. No obligations, no sales
+            pressure &mdash; just expert guidance tailored to your situation.
+          </p>
+
+          <ul class="biz-contact-details">
+            <li>
+              <div class="biz-cd-icon" aria-hidden="true">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-cd-label">Office</div>
+                <div class="biz-cd-val">
+                  Executive Tower B, Business Bay<br />Dubai, UAE
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="biz-cd-icon" aria-hidden="true">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.4 2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.16 6.16l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-cd-label">Phone</div>
+                <div class="biz-cd-val">
+                  <a href="tel:+97144xxxxxxx">+971 4 xxx xxxx</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="biz-cd-icon" aria-hidden="true">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-cd-label">Email</div>
+                <div class="biz-cd-val">
+                  <a href="mailto:hello@pinnacle-corp.ae"
+                    >hello@pinnacle-corp.ae</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="biz-cd-icon" aria-hidden="true">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <div class="biz-cd-label">Business Hours</div>
+                <div class="biz-cd-val">
+                  Monday &ndash; Friday, 9:00 AM &ndash; 6:00 PM GST
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <a
+            href="https://wa.me/"
+            class="biz-btn biz-btn-whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+              />
+            </svg>
+            Message on WhatsApp
+          </a>
+        </div>
+
+        <!-- Contact form card -->
+        <div
+          class="biz-contact-form-wrap biz-animate"
+          style="transition-delay: 0.15s"
+        >
+          <form class="biz-contact-form" id="js-contact-form" novalidate>
+            <h3 class="biz-form-title">Book a Free Consultation</h3>
+
+            <div class="biz-form-row">
+              <div class="biz-form-group">
+                <label for="full-name"
+                  >Full Name <span aria-hidden="true">*</span></label
+                >
+                <input
+                  type="text"
+                  id="full-name"
+                  name="fullName"
+                  placeholder="Ahmed Al Mansoori"
+                  required
+                  autocomplete="name"
+                />
+                <span class="biz-field-error" id="err-name"
+                  >Please enter your full name.</span
+                >
+              </div>
+              <div class="biz-form-group">
+                <label for="email"
+                  >Email <span aria-hidden="true">*</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="ahmed@company.ae"
+                  required
+                  autocomplete="email"
+                />
+                <span class="biz-field-error" id="err-email"
+                  >Please enter a valid email address.</span
+                >
+              </div>
+            </div>
+
+            <div class="biz-form-row">
+              <div class="biz-form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+971 5x xxx xxxx"
+                  autocomplete="tel"
+                />
+              </div>
+              <div class="biz-form-group">
+                <label for="company">Company Name</label>
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  placeholder="Your Company LLC"
+                  autocomplete="organization"
+                />
+              </div>
+            </div>
+
+            <div class="biz-form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service" name="service">
+                <option value="" disabled selected>
+                  Select a service&hellip;
+                </option>
+                <option value="company-formation">Company Formation</option>
+                <option value="pro-visa">PRO &amp; Visa Services</option>
+                <option value="strategy">Business Strategy</option>
+                <option value="financial">Financial &amp; Tax Advisory</option>
+                <option value="market-entry">Market Entry Consulting</option>
+                <option value="hr">HR &amp; Talent Solutions</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+
+            <div class="biz-form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us briefly about your situation and what you're trying to achieve&hellip;"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="biz-btn biz-btn-primary biz-btn-submit"
+              id="js-submit-btn"
+            >
+              Send Message
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+            <p class="biz-form-note">
+              We typically reply within 2 business hours.
+            </p>
+          </form>
+
+          <div
+            class="biz-form-success"
+            id="js-form-success"
+            aria-live="polite"
+            hidden
+          >
+            <div class="biz-success-icon">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>
+              Thank you &mdash; a consultant will reach out within 2 business
+              hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ── FOOTER ────────────────────────────────────────────── -->
+    <footer class="biz-footer">
+      <div class="biz-footer-inner">
+        <div class="biz-footer-brand">
+          <div class="biz-logo">
+            <div class="biz-logo-mark" aria-hidden="true">P</div>
+            <div class="biz-logo-text">
+              <span class="biz-logo-name">Pinnacle</span>
+              <span class="biz-logo-sub">Corporate Services</span>
+            </div>
+          </div>
+          <p class="biz-footer-tagline">
+            Your gateway to UAE business success. Company formation, strategy,
+            and compliance &mdash; all under one roof since 2011.
+          </p>
+          <p class="biz-footer-license">
+            DIFC License No. CL3842 &middot; Regulated by DFSA
+          </p>
+        </div>
+
+        <nav class="biz-footer-col" aria-label="Company links">
+          <h4 class="biz-footer-col-title">Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Our Team</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="biz-footer-col" aria-label="Services links">
+          <h4 class="biz-footer-col-title">Services</h4>
+          <ul>
+            <li>
+              <a href="services.html#company-formation">Company Formation</a>
+            </li>
+            <li><a href="services.html#pro-visa">PRO &amp; Visa</a></li>
+            <li>
+              <a href="services.html#financial-advisory">Financial Advisory</a>
+            </li>
+            <li><a href="services.html#market-entry">Market Entry</a></li>
+          </ul>
+        </nav>
+
+        <div class="biz-footer-col biz-footer-contact">
+          <h4 class="biz-footer-col-title">Contact</h4>
+          <address>
+            <p>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Executive Tower B<br />Business Bay, Dubai, UAE
+            </p>
+            <p>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+97144xxxxxxx">+971 4 xxx xxxx</a>
+            </p>
+            <p>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:hello@pinnacle-corp.ae">hello@pinnacle-corp.ae</a>
+            </p>
+          </address>
+        </div>
+      </div>
+
+      <div class="biz-footer-bottom">
+        <p>
+          &copy; 2025 Pinnacle Corporate Services LLC. All rights reserved.
+          &middot; Built by <a href="../index.html">NileCore Solutions</a>
+        </p>
+        <div class="biz-footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ── FLOATING WHATSAPP BUTTON ─────────────────────────── -->
+    <a
+      href="https://wa.me/"
+      class="biz-wa-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg
+        width="28"
+        height="28"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+        />
+      </svg>
+    </a>
+
+    <script src="../scripts/theme.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
 </html>

@@ -25,7 +25,7 @@ Most freelancers and small agencies show no demos at all — just claims and sto
 | 03  | [SEO Dashboard](seo-dashboard/)                     | SEO Keyword Research add-on                  | AED 700      | 🔜 Coming soon |
 | 04  | [WhatsApp Business](whatsapp-business/)             | WhatsApp Business Setup                      | AED 200      | 🔜 Coming soon |
 | 05  | [Google Business Profile](google-business-profile/) | Google Business Setup                        | AED 300      | 🔜 Coming soon |
-| 06  | [Business Website](business-website/)               | Business package (5 pages)                   | AED 5,000    | 🔜 Coming soon |
+| 06  | [Business Website](business-website/)               | Business package (5 pages)                   | AED 5,000    | ✅ Live        |
 | 07  | [Web App Dashboard](web-app-dashboard/)             | Custom Web Application                       | Custom Quote | 🔜 Coming soon |
 | 08  | [API Documentation](api-documentation/)             | REST API Development                         | Custom Quote | 🔜 Coming soon |
 
@@ -51,6 +51,11 @@ demos/
   README.md
   .gitignore
 
+  Docs/                           ← planning and design documents
+    NileCore-Demos-Planning.md    ← per-demo build checklists and technical specs
+    NileCore-Demo-Design-Brief.md ← colour palettes and aliveness techniques per demo
+    NileCore_Logos_README.md      ← brand asset usage guide
+
   brand/                          ← logos, favicons, SVG sprite
     icon-color.svg                ← standalone lightbulb icon (hardcoded colours)
     icon-white.svg
@@ -61,12 +66,14 @@ demos/
     watermark-light.svg           ← semi-transparent mark for dark backgrounds
     favicon.ico / favicon.svg / …
 
-  styles/                         ← shared across all pages
+  styles/                         ← shared CSS
     base.css                      ← design tokens, typography, spacing, dark mode
+    gallery.css                   ← gallery page styles
+
+  scripts/                        ← shared JS
     theme.js                      ← light/dark toggle (reads localStorage + OS preference)
     redirect.js                   ← reads data-redirect on <html> and navigates (no meta refresh)
     demos.js                      ← shared DEMOS data array (loaded by gallery and coming-soon)
-    gallery.css                   ← gallery page styles
     gallery.js                    ← renders demo cards into #js-demos-grid
 
   coming-soon/                    ← universal placeholder for unbuilt demos
@@ -74,21 +81,27 @@ demos/
     styles.css
     app.js
 
-  business-website/               ← Demo 06 (redirect stub until live)
+  business-website/               ← Demo 06 ✅ Live — Pinnacle Corporate Services
+    index.html                    ← Home
+    services.html                 ← Services (6 expanded cards + process + FAQ)
+    about.html                    ← About (story, timeline, team, values, credentials)
+    case-studies.html             ← Case Studies (4 client results)
+    contact.html                  ← Contact (form + map)
+    styles.css                    ← all demo styles (extends base.css)
+    app.js                        ← nav scroll, slider, FAQ, form validation, animations
+  analytics-dashboard/            ← Demo 01 (redirect stub)
     index.html
-  analytics-dashboard/            ← Demo 01
+  ecommerce-store/                ← Demo 02 (redirect stub)
     index.html
-  ecommerce-store/                ← Demo 02
+  seo-dashboard/                  ← Demo 03 (redirect stub)
     index.html
-  seo-dashboard/                  ← Demo 03
+  whatsapp-business/              ← Demo 04 (redirect stub)
     index.html
-  whatsapp-business/              ← Demo 04
+  google-business-profile/        ← Demo 05 (redirect stub)
     index.html
-  google-business-profile/        ← Demo 05
+  web-app-dashboard/              ← Demo 07 (redirect stub)
     index.html
-  web-app-dashboard/              ← Demo 07
-    index.html
-  api-documentation/              ← Demo 08
+  api-documentation/              ← Demo 08 (redirect stub)
     index.html
 ```
 
