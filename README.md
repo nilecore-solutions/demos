@@ -51,11 +51,6 @@ demos/
   README.md
   .gitignore
 
-  Docs/                           ← planning and design documents
-    NileCore-Demos-Planning.md    ← per-demo build checklists and technical specs
-    NileCore-Demo-Design-Brief.md ← colour palettes and aliveness techniques per demo
-    NileCore_Logos_README.md      ← brand asset usage guide
-
   brand/                          ← logos, favicons, SVG sprite
     icon-color.svg                ← standalone lightbulb icon (hardcoded colours)
     icon-white.svg
